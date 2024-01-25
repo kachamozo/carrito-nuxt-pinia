@@ -1,0 +1,105 @@
+{
+	"products": [
+		{
+			"name": "iPhone 13 Pro Max",
+			"description": "An ultra-wide angle sensor of 12 megapixels and an angle of 120 °; An improved 12-megapixel telephoto lens also with X3 Optical Zoom and optical stabilization.",
+			"brand": "Apple",
+			"price": 908,
+			"stock": 94,
+			"rating": 4.6,
+			"categories": ["1"],
+			"image": "https://m.media-amazon.com/images/I/61FZC+6hDFL._AC_SL1500_.jpg"
+		},
+		{
+			"name": "iPhone X",
+			"description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+			"brand": "Apple",
+			"price": 249,
+			"stock": 34,
+			"rating": 4.4,
+			"categories": ["1"],
+			"image": "https://m.media-amazon.com/images/I/61xa10dafvL._AC_SL1100_.jpg"
+		},
+		{
+			"name": "Samsung Galaxy S22 Ultra",
+			"description": "It has the brightest screen on the market, an Exynos processor with an AMD GPU, brightest camera sensor",
+			"brand": "Samsung",
+			"price": 1189,
+			"stock": 36,
+			"rating": 4.0,
+			"categories": ["1"],
+			"image": "https://m.media-amazon.com/images/I/71M4DO4SeoL._AC_SL1280_.jpg"
+		},
+		{
+			"name": "Huawei P30",
+			"description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+			"brand": "Huawei",
+			"price": 175,
+			"stock": 32,
+			"rating": 4.1,
+			"categories": ["1"],
+			"image": "https://m.media-amazon.com/images/I/61XM1qbUPUL._AC_SL1000_.jpg"
+		},
+		{
+			"name": "Huawei P50 Pro",
+			"description": "with FHD+ resolution of 1,228 x 2,700 pixels that can be automatically adjusted to reduce (somewhat) consumption, with a refresh rate of up to 120 Hz (also automatic) and a 300 Hz touch sampling frequency..",
+			"brand": "Huawei",
+			"price": 454,
+			"stock": 30,
+			"rating": 4.0,
+			"categories": ["1"],
+			"image": "https://http2.mlstatic.com/D_NQ_NP_974187-MLV52436619734_112022-O.webp"
+		},
+		{
+			"name": "Samsung Galaxy S21 Ultra ",
+			"description": "It has a 6.8-inch Dynamic AMOLED screen at QHD + resolution, 120 Hz refresh rate and Gorilla Glass Victus protection and inside we find the same pair of Snapdragon 888 processors.",
+			"brand": "Samsung",
+			"price": 1440,
+			"stock": 38,
+			"rating": 2.5,
+			"categories": ["1"],
+			"image": "https://http2.mlstatic.com/D_NQ_NP_650271-MLV47534099487_092021-O.webp"
+		},
+		{
+			"name": "Xiaomi Mi 11 Lite ",
+			"description": "It has a 64 MP main sensor with a size of 1/1.97 inches and an f/1.79 aperture. The other important sensor that accompanies it is another classic: an 8 MP wide angle and f/2.2 aperture.",
+			"brand": "Xiaomi",
+			"price": 341,
+			"stock": 34,
+			"rating": 3.3,
+			"categories": ["1"],
+			"image": "https://http2.mlstatic.com/D_NQ_NP_755679-MLV46528024024_062021-O.webp"
+		},
+		{
+			"name": "Xiaomi 12 Lite ",
+			"description": "Xiaomi 12 Lite has an AMOLED panel with FullHD+ resolution, 120 Hz refresh rate and integrated fingerprint reader under the screen, but in this case its diagonal is 6.55 inches, slightly larger than that of the Xiaomi 12 and the Xiaomi 12X.",
+			"brand": "Xiaomi",
+			"price": 416,
+			"stock": 40,
+			"rating": 3.9,
+			"categories": ["1"],
+			"image": "https://http2.mlstatic.com/D_NQ_NP_991013-MLV51294611292_082022-O.webp"
+		},
+		{
+			"name": "iPhone Pro Max 14 ",
+			"description": "6.1-inch and 6.7-inch Super Retina XDR OLED. Storage: 128, 256 and 512 GB on iPhone 14 and 1 TB option on Pro models. Ceramic Shield: stronger than any smartphone glass. Compatibility with MagSafe accessories.",
+			"brand": "Apple",
+			"price": 2400,
+			"stock": 42,
+			"rating": 4.7,
+			"categories": ["1"],
+			"image": "https://http2.mlstatic.com/D_NQ_NP_725885-MLV51817560144_102022-O.webp"
+		},
+		{
+			"name": "Samsung A71",
+			"description": "The Samsung Galaxy A71 arrives to succeed the Galaxy A70 with a 6.7-inch Super AMOLED screen at FHD + resolution. Using an octa-core Snapdragon 730 processor, the Galaxy A71 features 6GB or 8GB RAM variants with 128GB of microSD expandable internal storage space.",
+			"brand": "Samsung",
+			"price": 280,
+			"stock": 35,
+			"rating": 4.2,
+			"categories": ["1"],
+			"image": "https://http2.mlstatic.com/D_NQ_NP_664898-MLV49512628783_032022-O.webp"
+		}
+  ]
+ }
+ 
