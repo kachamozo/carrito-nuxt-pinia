@@ -13,7 +13,14 @@
 </template>
 <script setup>
 import { cartStore } from "../store/cart.store";
-import { productos } from "~/service/products-db";
+import { productoService } from "~/service/products.service";
+import { ref, onMounted } from "vue";
+
+const productos = ref([]);
+const obtenerProductos = async () => {
+  const res = await productoService.getProductos();
+  productos.value = res.productos;
+};
 
 const useCart = cartStore();
 const agregarProducto = (producto) => {
@@ -38,4 +45,9 @@ const agregarProducto = (producto) => {
   //Precio total del carrito
   useCart.precioTotal += producto.price;
 };
+
+onMounted(() => {
+  obtenerProductos();
+});
 </script>
+~/service/getData
