@@ -11,7 +11,7 @@ interface CarritoProps {
 	cantidadTotal: number;
 }
 
-//usa siempre el state, get, actions
+//usa siempre el state, get, actions es mejor que la nueva
 export const cartStore = defineStore('producto', {
 	state: (): CarritoProps => ({
 		productos: [],
