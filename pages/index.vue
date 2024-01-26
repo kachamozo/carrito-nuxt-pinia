@@ -1,8 +1,9 @@
 <template>
   <h1 class="text-center font-bold text-lg my-2">ECOMMERCE EL ROLY</h1>
+
   <div class="flex flex-row gap-6 justify-center flex-wrap my-[1rem]">
     <Productos
-      v-for="producto in products"
+      v-for="producto in productos"
       :nombre="producto.name"
       :precio="producto.price"
       :imagen="producto.image"
@@ -12,7 +13,7 @@
 </template>
 <script setup>
 import { cartStore } from "../store/cart.store";
-import { products } from "../server/data.json";
+import { productos } from "~/service/products-db";
 
 const useCart = cartStore();
 const agregarProducto = (producto) => {
