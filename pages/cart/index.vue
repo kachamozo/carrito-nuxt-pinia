@@ -1,34 +1,11 @@
 <template>
   <div class="flex flex-col gap-6">
-    <q-table
-      title="Productos"
-      :rows="useCarrito.productos"
-      :columns="columns"
-      row-key="name"
-    >
-      <!-- Slot con alcance para la columna de imágenes -->
-      <template v-slot:body-cell-imagen="props">
-        <q-td :props="props">
-          <img
-            :src="props.row.imagen"
-            alt=""
-            style="width: 50px; height: 70px"
-          />
-        </q-td>
-      </template>
-      <template v-slot:body-cell-actions="props">
-        <q-td :props="props">
-          <q-btn
-            color="red"
-            icon="delete"
-            dense
-            flat
-            round
-            @click="quitarProducto(props)"
-          />
-        </q-td>
-      </template>
-    </q-table>
+    <Tabla
+      :productos="useCarrito.productos"
+      :columnas="columns"
+      :handdleClick="quitarProducto"
+    />
+
     <h1 class="text-center text-[30px]">
       <span class="text-green-600">Total: $</span> {{ useCarrito.precioTotal }}
     </h1>
@@ -54,10 +31,10 @@ const quitarProducto = (props: any) => {
 
 const columns: any = [
   {
-    name: "imagen",
+    name: "image",
     label: "IMAGEN",
     aling: "left",
-    field: (item: any) => item.imagen,
+    field: (item: any) => item.image,
   },
   {
     name: "nombre",

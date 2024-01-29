@@ -21,13 +21,14 @@ const obtenerProductos = async () => {
   const res = await productoService.getProductos();
   productos.value = res.productos;
 };
+console.log(productos);
 
 const useCart = cartStore();
 const agregarProducto = (producto) => {
   const newProduct = {
     nombre: producto.name,
     precio: producto.price,
-    imagen: producto.image,
+    image: producto.image,
   };
   const existProduct = useCart.productos.find(
     (p) => p.nombre === producto.name
@@ -50,4 +51,3 @@ onMounted(() => {
   obtenerProductos();
 });
 </script>
-~/service/getData
